@@ -19,7 +19,7 @@ in mind:
 1. To convey how ubiquitous the fires are in high-concentration areas.
 2. To convey the pervasiveness of the fires across the country as a whole.
 3. To promote a good understanding of the geographical scale of areas with high densities of fire.
-4. 
+
 Based on these objectives, four clusters were chosen for inclusion, which were the first, sixth,
 eleventh and twelfth densest (referred to as clusters 1, 6, 11 and 12 respectively). For each cluster,
 the hotspots are displayed in a different colour (red) to hotspots in the rest of the map (orange) and a
