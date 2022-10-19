@@ -1,5 +1,3 @@
-  setwd(paste("C:\\Users\\joebr\\OneDrive\\Documents\\warwick",
-              "\\IM942 Visualisation Foundations\\graphical report",sep=""))
   fia <- read.csv("fire_nrt_M6_96062.csv", sep=",")
   fia <- data.frame(fia$latitude,fia$longitude)
 
@@ -230,10 +228,10 @@
   points(clusters_points[[3]]$cluster_points.fia.longitude+long_translation,
          clusters_points[[3]]$cluster_points.fia.latitude+lat_translation,
          pch=19,cex=0.01,col="red")
-  text(x=124.5,y=35.5,"Land area:\n108,119km²")
+  text(x=124.5,y=35.5,"Land area:\n108,119kmÂ²")
   text(x=124.5,y=35,"3.2% covered in fire",font=2)
   text(x=128,y=36.5,"South Korea",font=2)
-  text(x=128,y=36,"Land area:\n100,210km²")
+  text(x=128,y=36,"Land area:\n100,210kmÂ²")
   
   #Plot Belgium and cluster 6 (2)
   par(mar = c(0,0,0,0))
@@ -251,10 +249,10 @@
   points(clusters_points[[2]]$cluster_points.fia.longitude+long_translation,
          clusters_points[[2]]$cluster_points.fia.latitude+lat_translation,
          pch=19,cex=1,col="red")
-  text(x=2.6,y=50,"Land area:\n29,902km²")
+  text(x=2.6,y=50,"Land area:\n29,902kmÂ²")
   text(x=2.6,y=49.7,"19.5% covered in fire",font=2)
   text(x=4.5,y=51,"Belgium",font=2)
-  text(x=4.5,y=50.7,"Land area:\n30,528km²")
+  text(x=4.5,y=50.7,"Land area:\n30,528kmÂ²")
   
   #Plot Puerto Rico and cluster 1 (1)
   par(mar = c(0,0,0,0))
@@ -272,10 +270,10 @@
   points(clusters_points[[1]]$cluster_points.fia.longitude+long_translation,
          clusters_points[[1]]$cluster_points.fia.latitude+lat_translation,
          pch=19,cex=1,col="red")
-  text(x=-69,y=18.7,"Land area:\n8,021km²")
+  text(x=-69,y=18.7,"Land area:\n8,021kmÂ²")
   text(x=-68,y=17.7,"65.7% covered in fire",font=2)
   text(x=-66.5,y=18.4,"Puerto Rico",font=2)
-  text(x=-66.5,y=18.15,"Land area:\n9,104km²")
+  text(x=-66.5,y=18.15,"Land area:\n9,104kmÂ²")
   
   #Plot Greece and cluster 12 (4)
   par(mar = c(0,0,0,0))
@@ -293,10 +291,10 @@
   points(clusters_points[[4]]$cluster_points.fia.longitude+long_translation,
          clusters_points[[4]]$cluster_points.fia.latitude+lat_translation,
          pch=19,cex=0.1,col="red")
-  text(x=11.5,y=36.5,"Land area:\n136,287km²")
+  text(x=11.5,y=36.5,"Land area:\n136,287kmÂ²")
   text(x=15,y=35,"2.8% covered in fire",font=2)
   text(x=20,y=37,"Greece",font=2)
-  text(x=20,y=36,"Land area:\n131,957km²")
+  text(x=20,y=36,"Land area:\n131,957kmÂ²")
   
   #Write data citation
   text(x=8.5,
