@@ -2,7 +2,7 @@
 Visualisation of geographic coordinates of wildfires in Australia in 2019 and 2020
 
 # Explanation
-The visualisation produced in this project, created using R Studio, attempts to convey the scale of fires in the 2019-2020 Australian bushfire season via comparison with the land area of other countries. This is achieved by displaying a blown up version of certain sections of the map outside of the main map plot, adjacent to countries which have a similar land area. The sections of the Australian map chosen for comparison correspond to areas which saw a high concentration of fire in NASA’s MODIS Thermal Anomalies data.
+The visualisation produced in this project, created using R and shown in the file Rplot07.png, attempts to convey the scale of fires in the 2019-2020 Australian bushfire season via comparison with the land area of other countries. This is achieved by displaying a blown up version of certain sections of the map outside of the main map plot, adjacent to countries which have a similar land area. The sections of the Australian map chosen for comparison correspond to areas which saw a high concentration of fire in NASA’s MODIS Thermal Anomalies data.
 
 Large sections of land where fire is concentrated are identified by choosing a group of hotspots and taking their convex hull to calculate the
 coordinates of the smallest polygon which contains all of the hotspots. The density of fire is then calculated as the number of hotspots divided by the geographical area of the polygon in kilometres squared. It is not practical to measure this for every subset of the hotspots to find the most relevant ones, so for this project cluster analysis was used as a heuristic to find highly concentrated groups of hotspots.
